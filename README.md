@@ -1,5 +1,3 @@
-# RLWebkit
-
 # PS5 Relapse Exploit
 Supported firmware: 7.00 through 13.60.
 
