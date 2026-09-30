@@ -81,15 +81,8 @@ function log(message, type = "log") {
 }
 
 function watchR2(onPress) {
-  function onKey(event) {
-    if (event.key !== "F8" || event.code !== "Unidentified") return;
-    window.removeEventListener("keydown", onKey, true);
-    event.preventDefault();
-    onPress();
-  }
-
-  log("press R2 to load pldmgr", "info");
-  window.addEventListener("keydown", onKey, true);
+  log("Load pldmgr........", "info");
+  onPress();
 }
 
 const ROP_WAIT_MS = 20000;
